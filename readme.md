@@ -11,4 +11,7 @@ using live reload `air`
 
 ## flow
 
-![alt text](.theme/img.png)
+![flow](.theme/img.png)
+
+## postman collection
+[postman collection](.theme/go-rest-supabase.postman_collection.json)
