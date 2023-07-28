@@ -1,6 +1,6 @@
 # go rest using supabase
 
-## instalation
+## installation
 
 install golang and install air livereload
 

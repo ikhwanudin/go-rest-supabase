@@ -2,7 +2,6 @@ package User
 
 import "github.com/gofiber/fiber/v2"
 
-func UserRoute(route fiber.Router) {
-	route.Get("/authors", getUser)
+func Route(route fiber.Router) {
 	route.Post("/login", login)
 }

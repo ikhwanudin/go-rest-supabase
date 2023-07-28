@@ -22,8 +22,8 @@ func main() {
 	app := fiber.New()
 
 	api := app.Group("/api/")
-	User.UserRoute(api)
-	Photo.PhotoRoute(api)
+	User.Route(api)
+	Photo.Route(api)
 
 	err := app.Listen(":" + port)
 	if err != nil {
